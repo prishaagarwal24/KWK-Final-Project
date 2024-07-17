@@ -31,31 +31,56 @@ struct BodyLanguage: View {
                         x: 0.0, y:10)
             )
                 Text("Don't worry!! Body language can be improved with just a little direction and practice!")
-                    .font(.title)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 70)
+                .font(.title2)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
+                    .padding(.top, 20)
+                    .padding(.bottom, 10)
                     .frame(width: 350.0)
-                Text("To better help you, please select what you would like to specifically improve:")
-                    .font(.body)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 30)
-                
-                NavigationLink(destination: EyeContact()) {
-                    Text("Eye Contact")
-                        .padding(10.0)
-                        .tint(.white)
-                        .background(.blue)
-                        .cornerRadius(7)
+            
+            HStack {
+                VStack (alignment: .leading) {
+                    Text("To better help you, please select what you would like to specifically improve:")
+                        .frame(width: 300.0)
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
+                    
+                    HStack {
+                        NavigationLink(destination: EyeContact()) {
+                            Text("Eye Contact")
+                                .padding(.horizontal, 12)
+                                .fontWeight(.semibold)
+                                .multilineTextAlignment(.center)
+                                .padding(10.0)
+                                .tint(.blue)
+                                .background(.white)
+                                .cornerRadius(7)
+                        }
+                        
+                        NavigationLink(destination: HandGestures()) {
+                            Text("Hand Gestures")
+                                .padding(.horizontal, 12)
+                                .fontWeight(.semibold)
+                                .multilineTextAlignment(.center)
+                                .padding(10.0)
+                                .tint(.blue)
+                                .background(.white)
+                                .cornerRadius(7)
+                        }
+                    }
                 }
-                
-                NavigationLink(destination: HandGestures()) {
-                    Text("Hand Gestures")
-                        .padding(10.0)
-                        .tint(.white)
-                        .background(.blue)
-                        .cornerRadius(7)
-                }
-        
+            }
+            .padding()
+            .background(
+                Color.blue
+                    .cornerRadius(10)
+                    .shadow(
+                        color: Color.black.opacity(0.3),
+                        radius: 10,
+                        x: 0.0, y:10)
+            )
                 Spacer()
             }
         }
