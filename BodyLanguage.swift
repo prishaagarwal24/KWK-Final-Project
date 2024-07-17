@@ -9,7 +9,26 @@ import SwiftUI
 
 struct BodyLanguage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    HStack {
+        VStack (alignment: .leading) {
+                Text("Body Language:")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                
+                Text("The process of communicating nonverbally through conscious or unconscious gestures and movements.")
+            }
+        }
+        .padding()
+        .foregroundColor(.white)
+        .background(
+            Color.blue
+                .cornerRadius(10)
+                .shadow(
+                    color: Color.black.opacity(0.3),
+                    radius: 10,
+                    x: 0.0, y:10)
+        )
+        Spacer()
     }
 }
 
