@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E32ED532C470AEE00E0F9E2 /* BodyLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32ED522C470AEE00E0F9E2 /* BodyLanguage.swift */; };
+		8E32ED552C470DC200E0F9E2 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32ED542C470DC200E0F9E2 /* Voice.swift */; };
+		8E32ED572C470DD600E0F9E2 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32ED562C470DD600E0F9E2 /* Content.swift */; };
+		8E6CC0162C46F9E60080C33B /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CC0152C46F9E60080C33B /* Intro.swift */; };
 		8EEA912C2C41C33700B8C2A2 /* KWK_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA912B2C41C33700B8C2A2 /* KWK_Final_ProjectApp.swift */; };
 		8EEA912E2C41C33700B8C2A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA912D2C41C33700B8C2A2 /* ContentView.swift */; };
 		8EEA91302C41C33A00B8C2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA912F2C41C33A00B8C2A2 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E32ED522C470AEE00E0F9E2 /* BodyLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLanguage.swift; sourceTree = "<group>"; };
+		8E32ED542C470DC200E0F9E2 /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		8E32ED562C470DD600E0F9E2 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		8E6CC0152C46F9E60080C33B /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		8EEA91282C41C33700B8C2A2 /* KWK Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEA912B2C41C33700B8C2A2 /* KWK_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		8EEA912D2C41C33700B8C2A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +43,10 @@
 		8EEA911F2C41C33700B8C2A2 = {
 			isa = PBXGroup;
 			children = (
+				8E6CC0152C46F9E60080C33B /* Intro.swift */,
+				8E32ED542C470DC200E0F9E2 /* Voice.swift */,
+				8E32ED562C470DD600E0F9E2 /* Content.swift */,
+				8E32ED522C470AEE00E0F9E2 /* BodyLanguage.swift */,
 				8EEA912A2C41C33700B8C2A2 /* KWK Final Project */,
 				8EEA91292C41C33700B8C2A2 /* Products */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				8EEA912E2C41C33700B8C2A2 /* ContentView.swift in Sources */,
 				8EEA912C2C41C33700B8C2A2 /* KWK_Final_ProjectApp.swift in Sources */,
+				8E6CC0162C46F9E60080C33B /* Intro.swift in Sources */,
+				8E32ED552C470DC200E0F9E2 /* Voice.swift in Sources */,
+				8E32ED532C470AEE00E0F9E2 /* BodyLanguage.swift in Sources */,
+				8E32ED572C470DD600E0F9E2 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
