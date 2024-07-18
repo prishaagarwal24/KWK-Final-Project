@@ -11,13 +11,13 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.blue
+                Color(red: 0/255.0, green: 180/255.0, blue: 216/255.0)
                     .ignoresSafeArea ()
                 Circle()
                     .scale (1.7)
-                    .foregroundColor(.white.opacity(0.15))
+                    .foregroundColor(.white.opacity(0.35))
                 Circle()
-                    .scale (1.35)
+                    .scale (1.33)
                     .foregroundColor(.white)
                 
                 VStack {
@@ -32,6 +32,9 @@ struct ContentView: View {
                         Text("Next")
                             .font(.headline)
                             .padding(.top, 10)
+                            .foregroundColor(Color(red: 0/255.0, green: 119/255.0, blue: 182/255.0))
+                        
+                        
                     }
                 }
                 .padding()
