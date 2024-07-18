@@ -33,7 +33,7 @@ struct Tone: View {
                         x: 0.0, y:10)
             )
             Spacer()
-                .frame(height:20)
+                .frame(height:10)
             Text("The tone of your voice  includes variations in pitch, volume, and inflection. It conveys your emotions and attitude on the topic, which help to communicate meaning and engage the audiance.")
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.title2)
@@ -82,12 +82,12 @@ struct Tone: View {
                 .underline()
             
             Link(destination: URL(string: "https://www.youtube.com/watch?v=kmVZYsVdPpc")!) {
-                Text("• Presentation Skills - Matching Your Tone to Your Intention - Variation From the Inside Out")
+                Text(" • Presentation Skills - Matching Your Tone to Your Intention - Variation From the Inside Out")
                     .underline()
             }
             
             Link( destination: URL(string: "https://www.youtube.com/watch?v=pH287zxVXE0")!){
-                Text("• How to Change Tone of Voice")
+                Text(" • How to Change Tone of Voice")
                     .underline()
             }
             

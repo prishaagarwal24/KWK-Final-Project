@@ -79,12 +79,12 @@ struct HandGestures: View {
                     .underline()
                 
                 Link(destination: URL(string: "https://www.youtube.com/watch?v=3yYjYvdcCw8&ab_channel=Skillopedia-Skillsfortherealworld")!) {
-                    Text("6 Hand Gestures For Effective Public Speaking & Presentation")
+                    Text(" • 6 Hand Gestures For Effective Public Speaking & Presentation")
                         .underline()
                 }
                 
                 Link( destination: URL(string: "https://www.youtube.com/watch?v=2sCp9ZRhdYU&ab_channel=DominicColenso")!){
-                    Text("How to Use Your Hands While Presenting")
+                    Text(" • How to Use Your Hands While Presenting")
                         .underline()
                 }
                 

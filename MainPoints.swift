@@ -81,12 +81,12 @@ struct MainPoints: View {
                 .underline()
             
             Link(destination: URL(string: "https://courses.lumenlearning.com/publicspeakingprinciples/chapter/chapter-8-writing-the-body-of-your-speech/#:~:text=Main%20points%20do%20not%20stand,help%20prove%20the%20main%20points.")!) {
-                Text("Writing the Body of Your Speech")
+                Text(" • Writing the Body of Your Speech")
                     .underline()
             }
             
             Link( destination: URL(string: "https://www.youtube.com/watch?v=2sCp9ZRhdYU&ab_channel=DominicColenso")!){
-                Text("How to Use Your Hands While Presenting")
+                Text(" • How to Use Your Hands While Presenting")
                     .underline()
             }
             

@@ -35,7 +35,7 @@ struct BodyLanguage: View {
             )
             Spacer()
                 .frame(height: 30)
-                Text("Don't worry!! Body language can be improved with just a little direction and practice!")
+                Text("Don't worry!! Body language can be improved with some guidance and practice!")
                 .font(.title)
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)

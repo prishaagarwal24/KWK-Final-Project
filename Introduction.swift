@@ -50,13 +50,16 @@ struct Introduction: View {
                             x: 0.0, y:10)
                 )
             Spacer()
-                .frame(height:40)
+                .frame(height:30)
             VStack{
                 Text("Quick Tips:")
-                Text(" • Keep your elbows to your body and your hands in your “box” (below your chin, above your waist, shoulder width apart)")
+                Text(" • Start with an interesting hook: story, surprising fact, quote, question, etc.")
                     .multilineTextAlignment(.leading)
-                Text(" • Don’t use them excessively because they can be distracting. Be purposeful.")
+                    .fixedSize(horizontal: false, vertical: true)
+                Text(" • Set the tone for your speech with a strong message. ")
                     .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                   
             }
             .font(.title2)
             .multilineTextAlignment(.center)
@@ -79,14 +82,16 @@ struct Introduction: View {
                 .padding(.bottom, 15)
                 .underline()
             
-            Link(destination: URL(string: "https://www.youtube.com/watch?v=3yYjYvdcCw8&ab_channel=Skillopedia-Skillsfortherealworld")!) {
-                Text("6 Hand Gestures For Effective Public Speaking & Presentation")
+            Link(destination: URL(string: "https://www.youtube.com/watch?v=7tzentBmmUc")!) {
+                Text(" • How to Start a Speech: The Best (and Worst) Speech Openers")
                     .underline()
+                    .fixedSize(horizontal: false, vertical: true)
             }
             
-            Link( destination: URL(string: "https://www.youtube.com/watch?v=2sCp9ZRhdYU&ab_channel=DominicColenso")!){
-                Text("How to Use Your Hands While Presenting")
+            Link( destination: URL(string: "https://www.youtube.com/watch?v=aGEFtRwPhE4")!){
+                Text(" • How to Start your Presentation: 4 Step Formula for a Killer Intro")
                     .underline()
+                    .fixedSize(horizontal: false, vertical: true)
             }
             
             Spacer()

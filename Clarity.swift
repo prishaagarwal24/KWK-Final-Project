@@ -81,7 +81,7 @@ struct Clarity: View {
                 .underline()
             
             Link(destination: URL(string: "https://www.youtube.com/watch?v=npsJwLk5vjU&ab_channel=KaraRonin")!) {
-                Text("How I Learned to Speak With More CLARITY - Kara Ronin")
+                Text(" • How I Learned to Speak With More CLARITY - Kara Ronin")
                     .underline()
             }
             
