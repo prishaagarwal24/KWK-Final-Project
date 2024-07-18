@@ -55,6 +55,7 @@ struct Tone: View {
                 Text("Quick Tips:")
                 Text(" • Avoid sounding monotone. Vary your pitch and volume.")
                     .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
                 Text(" • Speak in a tone that is consistent with what you are talking about. If you are talking about something sad, make sure to match it with a sad tone. You can even add matching facial expressions to take it up a notch!")
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
