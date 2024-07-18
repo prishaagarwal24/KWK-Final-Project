@@ -10,6 +10,8 @@ import SwiftUI
 struct EyeContact: View {
     var body: some View {
         NavigationStack{
+            Spacer()
+                   .frame(height:20)
             HStack {
                 VStack (alignment: .leading) {
                     Text("Eyecontact")
@@ -30,6 +32,8 @@ struct EyeContact: View {
                         radius: 10,
                         x: 0.0, y:10)
             )
+            Spacer()
+                   .frame(height:20)
             Text("Eye contact helps you connect with your audience, keep them engaged, and convey your confidence and conviction.")
                 .font(.title2)
                 .multilineTextAlignment(.center)
@@ -44,6 +48,8 @@ struct EyeContact: View {
                         radius: 10,
                         x: 0.0, y:10)
             )
+            Spacer()
+                   .frame(height:40)
             VStack{
                 Text("Quick Tips:")
                 Text(" • If you are having trouble moving your eyes across different faces, span across the back wall!")
@@ -64,17 +70,27 @@ struct EyeContact: View {
                         radius: 10,
                         x: 0.0, y:10)
             )
+          
             
-            Text("Additional Resources::")
+            Text("Additional Resources 🎥:")
                 .font(.title2)
                 .multilineTextAlignment(.center)
                 .padding(.top, 30)
-            Link("How to Make Eye Contact with Audience", destination: URL(string:"https://www.youtube.com/watch?v=i--CdKh_dHc&ab_channel=Howcast")!)
-            
+                .padding(.bottom, 15)
+                .underline()
+        
+        Link(destination: URL(string: "https://www.youtube.com/watch?v=i--CdKh_dHc&ab_channel=Howcast")!) {
+            Text("How to Make Eye Contact with Audience")
+                .underline()
+        }
+          
+        Link( destination: URL(string: "https://www.youtube.com/watch?v=bHblBfPy5qU&ab_channel=CommunicationCoachAlexanderLyon")!){
+            Text("Public Speaking Eye Contact")
+                .underline()
+        }
             Spacer()
         }
     }
-    
 }
 #Preview {
     EyeContact()

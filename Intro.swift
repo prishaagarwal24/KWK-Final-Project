@@ -11,19 +11,20 @@ struct Intro: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Color.blue
+                Color(red: 0/255.0, green: 180/255.0, blue: 216/255.0)
                     .ignoresSafeArea ()
                 Circle()
                     .scale (1.7)
-                    .foregroundColor(.white.opacity(0.15))
+                    .foregroundColor(.white.opacity(0.35))
                 Circle()
-                    .scale (1.35)
+                    .scale (1.33)
                     .foregroundColor(.white)
                 VStack {
-                    
+                    Spacer()
+                           .frame(height:40)
                     Text("Welcome to Gloss Over!")
                         .font(.largeTitle)
-                    Text("We are your personal aid in improving your public speaking skills")
+                    Text("I am your personal aid in improving your public speaking skills")
                         .font(.title)
                         .multilineTextAlignment(.center)
                         .padding(.top, 10)
@@ -35,24 +36,24 @@ struct Intro: View {
                     NavigationLink(destination: BodyLanguage()) {
                         Text("Body Language")
                             .padding(10.0)
-                            .tint(.white)
-                            .background(.blue)
+                            .foregroundColor(.white) // Set the text color
+                            .background(Color(red: 0/255.0, green: 119/255.0, blue: 182/255.0)) // Set the background color
                             .cornerRadius(7)
                     }
                     
                     NavigationLink(destination: Voice()) {
                         Text("Voice")
                             .padding(10.0)
-                            .tint(.white)
-                            .background(.blue)
+                            .foregroundColor(.white) // Set the text color
+                            .background(Color(red: 0/255.0, green: 119/255.0, blue: 182/255.0)) // Set the background color
                             .cornerRadius(7)
                     }
                     
                     NavigationLink(destination: Content()) {
                         Text("Content")
                             .padding(10.0)
-                            .tint(.white)
-                            .background(.blue)
+                            .foregroundColor(.white) // Set the text color
+                            .background(Color(red: 0/255.0, green: 119/255.0, blue: 182/255.0)) // Set the background color
                             .cornerRadius(7)
                     }
                 }
