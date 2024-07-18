@@ -35,6 +35,7 @@ struct HandGestures: View {
                 Spacer()
                     .frame(height:20)
                 Text("Hand gestures are used to emphasize certain points of your speech and support what you are saying. They can  make you appear more passionate and friendly to an audience.")
+                    .fixedSize(horizontal: false, vertical: true)
                     .font(.title2)
                     .multilineTextAlignment(.center)
                     .frame(width: 350.0)
@@ -52,9 +53,11 @@ struct HandGestures: View {
                     .frame(height:40)
                 VStack{
                     Text("Quick Tips:")
-                    Text(" • Keep your elbows to your body and your hands in your “box” (below your chin, above your waist, shoulder width apart)")
+                    Text(" • Keep your elbows to your body and your hands in your “box” (below your chin, above your waist, shoulder width apart).")
                         .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
                     Text(" • Don’t use them excessively because they can be distracting. Be purposeful.")
+                        .fixedSize(horizontal: false, vertical: true)
                         .multilineTextAlignment(.leading)
                 }
                 .font(.title2)

@@ -35,6 +35,7 @@ struct MainPoints: View {
             Spacer()
                 .frame(height:20)
             Text("Main points are the key ideas or arguments that the speaker presents to support the overall message/thesis. Well-organized main points help  convey the speaker's message effectivel and maintain audience engagement.")
+                .fixedSize(horizontal: false, vertical: true)
                 .font(.title2)
                 .multilineTextAlignment(.center)
                 .frame(width: 350.0)
@@ -84,11 +85,7 @@ struct MainPoints: View {
                 Text(" • Writing the Body of Your Speech")
                     .underline()
             }
-            
-            Link( destination: URL(string: "https://www.youtube.com/watch?v=2sCp9ZRhdYU&ab_channel=DominicColenso")!){
-                Text(" • How to Use Your Hands While Presenting")
-                    .underline()
-            }
+    
             
             Spacer()
         }

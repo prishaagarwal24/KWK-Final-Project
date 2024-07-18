@@ -85,6 +85,7 @@ struct Tone: View {
             Link(destination: URL(string: "https://www.youtube.com/watch?v=kmVZYsVdPpc")!) {
                 Text(" • Presentation Skills - Matching Your Tone to Your Intention - Variation From the Inside Out")
                     .underline()
+                    .fixedSize(horizontal: false, vertical: true)
             }
             
             Link( destination: URL(string: "https://www.youtube.com/watch?v=pH287zxVXE0")!){
